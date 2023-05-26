@@ -1,0 +1,140 @@
+.single-product {
+  padding: 40px 0px;
+
+  .product-title {
+    h3 {
+      color: #212224;
+      font-size: 24px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+  }
+
+  .cart-btn {
+    i {
+      font-size: 20px;
+      color: #a0a1a7;
+      // padding-right: 7px;
+    }
+    a {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      background-color: #060606;
+      padding: 15px 30px 15px 30px !important;
+      font-weight: 300;
+
+      &:hover {
+        color: #fff;
+        background-color: #dccc99;
+        border-color: #dccc99;
+        padding: 12px 30px;
+      }
+    }
+
+    a.wish-button {
+      background-color: #e3e3e3;
+      margin-left: 20px;
+      padding: 14px !important;
+      i {
+        font-size: 30px;
+        padding: 0px !important;
+      }
+    }
+  }
+
+  .product-photo {
+    width: 100%;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      padding: 0px 50px;
+    }
+  }
+
+  .product-info {
+    h1 {
+      font-weight: 900;
+    }
+
+    .price {
+      font-size: 22px;
+      display: flex;
+      gap: 10px;
+      padding: 10px 0px;
+      margin: 10px 0px;
+      border-top: 1px solid #e9e9e9;
+      border-bottom: 1px solid #e9e9e9;
+
+      .reg {
+        text-decoration: line-through;
+        color: #bbb;
+      }
+
+      .sale {
+        font-weight: 500;
+      }
+    }
+
+    .desc {
+      font-size: 14px;
+      font-weight: 200;
+      width: 70%;
+      padding: 20px 0px;
+    }
+
+    .stock {
+      font-size: 14px;
+      padding-bottom: 20px;
+      display: block;
+      font-weight: 700;
+      color: green;
+    }
+
+    .cart-btn {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      height: 50px;
+
+      input {
+        height: 50px;
+        padding: 0px 10px;
+        width: 70px;
+        border: 1px solid #ccc;
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .cart-button {
+        height: 50px;
+        border-radius: 0px;
+        background-color: orangered;
+        border-color: orangered;
+      }
+
+      .wish-button {
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        font-size: 35px;
+        color: #aaa;
+        padding: 0px;
+        transform: translate(0px, -7px);
+      }
+    }
+  }
+
+  .related-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+}

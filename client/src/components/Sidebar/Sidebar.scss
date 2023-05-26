@@ -1,0 +1,66 @@
+.sidebar-widget {
+  margin-bottom: 30px;
+  .widget-title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #060606;
+  }
+
+  input[type="search"] {
+    border-radius: 0px;
+    padding: 10px 20px;
+    font-weight: 200;
+  }
+
+  .list li {
+    font-weight: 300;
+    font-size: 13px;
+    padding: 5px 0px;
+    color: #737880;
+    font-family: serif;
+
+    &:hover {
+      color: #dccc99;
+    }
+  }
+
+  .tags-items {
+    a {
+      display: inline-block;
+      background-color: #060606;
+      color: #dccc99;
+      padding: 5px 10px;
+      margin: 5px;
+      font-size: 13px;
+
+      &:hover {
+        background-color: #dccc99;
+        color: #fff;
+      }
+    }
+  }
+
+  .price-search {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    input {
+      width: 30%;
+      height: 40px;
+      border: 1px solid #ccc;
+      padding: 0px 20px;
+    }
+
+    button {
+      padding: 0px 10px;
+      height: 40px;
+      border: 1px solid #dccc99;
+      background-color: #dccc99;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}
